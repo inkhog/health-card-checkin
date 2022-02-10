@@ -25,3 +25,5 @@ jobs:
       run: npm install
     - name: Run Script
       run: node yqt-check.js ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }} '${{ secrets.GEO_INFO }}'
+    - name: Run Script2
+      run: node yqt-check.js ${{ secrets.USERNAME2 }} ${{ secrets.PASSWORD2 }} '${{ secrets.GEO_INFO2 }}'
